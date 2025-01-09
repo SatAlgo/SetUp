@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Login from './Login';
-import pic from "../../public/bajaj.png";
+import pic from "../../public/kk.jpg";
 
 function Navbar() {
 
@@ -52,25 +52,21 @@ function Navbar() {
             <li className="hover:underline transition duration-200">
                 <a href="/Mores">More</a>
             </li>
-            <li className="hover:underline transition duration-200">
-                <a href="/TT">TT</a>
-            </li>
-        
+
         </>
     );
     return (
         <>
             <div
-                className={`max-w-screen-2xl container mx-auto md:px-10 px-4 bg-base-200 dark:bg-slate-800 dark:text-white fixed top-0 left-0 right-0 z-50 ${
-                    sticky 
-                    ? "sticky-navbar shadow-md bg-base-300 dark:bg-slate-700 dark:text-white duration-300 transition-all ease-in-out"
+                className={`max-w-screen-2xl container mx-auto md:px-6 px-4 bg-base-200 dark:bg-slate-800 dark:text-white fixed top-0 left-0 right-0 z-50 ${sticky
+                        ? "sticky-navbar shadow-md bg-base-300 dark:bg-slate-700 dark:text-white duration-300 transition-all ease-in-out"
                         : ""
                     }`}
             >
-                <div className="navbar ">
+                <div className="navbar">
                     <div className="navbar-start">
                         <div className="dropdown">
-                            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-5 w-5"
@@ -86,12 +82,15 @@ function Navbar() {
                             </div>
                             <ul
                                 tabIndex={0}
-                                className="menu menu-sm dropdown-content bg-base-100 dark:bg-slate-800 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                className="menu menu-md dropdown-content bg-base-100 dark:bg-slate-800 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                                 {navItems}
                             </ul>
                         </div>
-                        <img src={pic} className="h-12 w-11 rounded-full" alt="" />
-                        <a className="text-red-600 text-2xl font-bold cursor-pointer">KitUp</a>
+                        <a href="https://t.me/+NKT8OoynbggwZTk1">
+                            <img src={pic} className="h-10 w-10 rounded-full cursor-pointer" alt="Profile Picture" />
+                        </a>
+
+                        <a href="https://t.me/+NKT8OoynbggwZTk1" className=" px-3 text-lime-400 text-3xl font-bold cursor-pointer">KitUp</a>
                     </div>
                     <div className="navbar-end space-x-3">
 
@@ -159,3 +158,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
+

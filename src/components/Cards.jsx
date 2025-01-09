@@ -14,7 +14,7 @@ function Cards({ item }) {
                             {item.name}
                             <div
                                 className={`badge ${item.category === 'For Sale'
-                                        ? 'bg-orange-400 text-black'
+                                        ? 'bg-lime-400 text-black'
                                         : item.category === 'Fashion'
                                         ? 'bg-green-500 text-white'
                                         : item.category === 'Books'

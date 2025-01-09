@@ -173,7 +173,7 @@ function More() {
               <li>Getting Things Done</li>
             </ul>
           </div>
-          <div className="px-4">
+          {/* <div className="px-4">
             <h2 className="mb-2 text-xl text-teal-500">Tools</h2>
             <ul className="list-disc list-inside">
               <li>Linux</li>
@@ -182,7 +182,7 @@ function More() {
               <li>Tablaue</li>
               <li>Matlab</li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
 

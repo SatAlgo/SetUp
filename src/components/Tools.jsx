@@ -47,11 +47,13 @@ function Tools() {
         ))}
       </ul>
 
-      <Link to="/">
+      {/* <Link to="/">
         <button className="mt-6 mb-6 mr-3 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
           Back
         </button>
-      </Link>
+      </Link> */}
+
+      <Link to="/" className="mt-5 text-gray-500 underline hover:text-blue-700">Go Back</Link>
     </div>
   );
 }
