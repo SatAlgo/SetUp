@@ -86,8 +86,8 @@ function Navbar() {
                                 {navItems}
                             </ul>
                         </div>
-                        <a href="https://t.me/+NKT8OoynbggwZTk1">
-                            <img src={pic} className="h-10 w-10 rounded-full cursor-pointer" alt="Profile Picture" />
+                        <a href="https://t.me/+NKT8OoynbggwZTk1" className='hidden lg:block'>
+                            <img src={pic} className="h-10 w-10 rounded-full cursor-pointer " alt="Profile Picture" />
                         </a>
 
                         <a href="https://t.me/+NKT8OoynbggwZTk1" className=" px-3 text-lime-400 text-3xl font-bold cursor-pointer">KitUp</a>

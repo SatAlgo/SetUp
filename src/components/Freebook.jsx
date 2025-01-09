@@ -53,14 +53,13 @@ function Freebook() {
                     <h1 className="text-yellow-400 font-bold text-xl pb-1 pt-20 max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row">Gadgets for Engineering Life:</h1>
                     <p className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-2">
                         Here, you can buy, sell, and showcase gadgets essential for your engineering journey. Whether it's tools, accessories, or any other device, find everything you need to enhance your learning and daily activities.
-                        <br />
-
                     </p>
-                    <p className='text-sm text-gray-500 max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row'>
+                    <br />
+                    <p className='text-sm text-gray-500 max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row '>
                         If you'd like to showcase something for sale, feel free to 
                         <a
                             href="https://t.me/+NKT8OoynbggwZTk1"
-                            className="px-1 text-indigo-500 underline hover:text-blue-700"
+                            className="inline md:px-1 text-indigo-500 underline hover:text-blue-700"
                         >
                             contact us!
                         </a>
@@ -98,4 +97,4 @@ function Freebook() {
     )
 }
 
-export default Freebook
+export default Freebook;
