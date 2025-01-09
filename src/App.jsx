@@ -11,6 +11,7 @@ import Notes from './content/Notes';
 import SupportUs from './content/SupportUs';
 import ToolKit from './content/ToolKit';
 import JoinUs from './content/JoinUs';
+import TT from './content/TT';
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
         <Route path="/mores" element={<Mores/>} />
         <Route path="/SupportUs" element={<SupportUs />} />
         <Route path="/JoinUs" element={<JoinUs />} />
+        {/* <Route path="/TimeTable" element={<Timetable />} /> */}
+        <Route path="/TT" element={<TT />} />
       </Routes>
       </div>
       

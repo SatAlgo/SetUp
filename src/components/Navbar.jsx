@@ -52,6 +52,9 @@ function Navbar() {
             <li className="hover:underline transition duration-200">
                 <a href="/Mores">More</a>
             </li>
+            <li className="hover:underline transition duration-200">
+                <a href="/TT">TT</a>
+            </li>
         
         </>
     );
@@ -87,8 +90,8 @@ function Navbar() {
                                 {navItems}
                             </ul>
                         </div>
-                        {/* <img src={pic} className="h-12 w-11 rounded-full" alt="" /> */}
-                        <a className="text-red-600 text-2xl font-bold cursor-pointer">SetUp</a>
+                        <img src={pic} className="h-12 w-11 rounded-full" alt="" />
+                        <a className="text-red-600 text-2xl font-bold cursor-pointer">KitUp</a>
                     </div>
                     <div className="navbar-end space-x-3">
 

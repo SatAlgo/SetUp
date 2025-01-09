@@ -14,19 +14,14 @@ function Tools() {
       url: "https://www.ilovepdf.com/pdf_to_word",
     },
     {
-      id: 3,
-      name: "React Documentation",
-      url: "https://reactjs.org/docs/getting-started.html",
-    },
-    {
       id: 4,
-      name: "Tailwind CSS",
-      url: "https://tailwindcss.com/",
+      name: "ERP MITAOE",
+      url: "https://mitaoe.mastersofterp.in/iitmsv4eGq0RuNHb0G5WbhLmTKLmTO7YBcJ4RHuXxCNPvuIw=?enc=iF6gEp4ArHiXP7jJ9QlgUyiC5t8GbTA5A/9xbk1Vtqk=",
     },
     {
       id: 5,
-      name: "Stack Overflow",
-      url: "https://stackoverflow.com/",
+      name: "Moodle MITAOE",
+      url: "http://moodle.mitaoe.ac.in/login/index.php",
     },
     
   ];

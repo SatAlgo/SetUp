@@ -14,7 +14,7 @@ function Footer() {
           <a href="https://www.linkedin.com/in/satyam-gaikwad-27a7a724b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             className="link link-hover">Contact</a>
-          <a href="/JoinUs" className="link link-hover">Join</a>
+          <a href="/JoinUs" className="link link-hover">Contact</a>
           <a href="/SupportUs" className="link link-hover text-teal-400">Support Us</a>
         </nav>
         <nav>

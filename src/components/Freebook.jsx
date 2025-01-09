@@ -50,9 +50,10 @@ function Freebook() {
         <>
             <div className="max-w-screen-xl mx-auto">
             <div className="">
-                <h1 className="text-yellow-400 font-bold text-xl pb-1 pt-20 max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row">Internship Partners:</h1>
+                <h1 className="text-yellow-400 font-bold text-xl pb-1 pt-20 max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row">Gadgets for Engineering Life:</h1>
                 <p className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-2">
-                Unlock your potential with internships from industry-leading companies. Collaborate with global giants like Google, Microsoft, Amazon, and Infosys and many more, who are known for offering exceptional internship opportunities. These partnerships are designed to help students gain hands-on experience, sharpen their skills, and build professional networks. Explore internships that align with your career goals and take the first step toward a successful future. Scroll down to see more exciting opportunities and partnerships!
+                Here, you can showcase, buy, and sell gadgets needed in your engineering life. Whether it's tools, accessories, 
+                or any other device, find what you need to enhance your learning and daily activities.
                 </p>
             </div>
             <div className="slider-container overflow-hidden px-8 py-1 text-center">

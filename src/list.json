@@ -1,94 +1,33 @@
 [
     {
         "id":1,
-        "name":"Infosys",
-        "title":"sujal ajay meshram",
-        "price":0,
+        "name":"Casio Watch",
+        "title":"",
+        "price":1000,
         "category":"For Sale",
-        "image":"/infosys.png",
-        "description":"Boost skills with real-world experience through top internships."
+        "image":"/Casio_MRW.jpg",
+        "description":"The Casio MRW-200HC-2BVDF is a sporty, durable watch with quartz movement, 100m water resistance, and a resin strap."
     },
     {
         "id":2,
-        "name":"Google",
-        "title":"bharat narayan sarkar",
+        "name":"Casio Watch",
+        "title":"",
         "price":1000,
         "category":"For Sale",
-        "image":"/google.png",
-        "description":"Boost skills with real-world experience through top internships."
+        "image":"/Casio_MRW.jpg",
+        "description":"The Casio MRW-200HC-2BVDF is a sporty, durable watch with quartz movement, 100m water resistance, and a resin strap."
     },
     {
         "id":3,
-        "name":"Microsoft",
-        "title":"satyam madhav gaikwad",
-        "price":3000,
-        "category":"For Sale",
-        "image":"/microsoft.png",
-        "description":"Boost skills with real-world experience through top internships."
-    },
-    {
-        "id":4,
-        "name":"Bajaj",
-        "title":"sujal ajay meshram",
-        "price":0,
-        "category":"For Sale",
-        "image":"/bajaj.png",
-        "description":"Boost skills with real-world experience through top internships."
-    },
-    {
-        "id":5,
-        "name":"Phonepay",
-        "title":"sujal ajay meshram",
-        "price":0,
-        "category":"Notes1",
-        "image":"/phonepay.png",
-        "description":"Boost skills with real-world experience through top internships."
-    },
-    {
-        "id":6,
-        "name":"Paytm",
-        "title":"sujal ajay meshram",
-        "price":0,
-        "category":"Notes1",
-        "image":"/paytm.png",
-        "description":"Boost skills with real-world experience through top internships."
-    },
-    {
-        "id":6,
-        "name":"Pubmatic",
-        "title":"sujal ajay meshram",
-        "price":0,
-        "category":"Notes1",
-        "image":"/pubmatic.png",
-        "description":"Boost skills with real-world experience through top internships."
-    },
-    {
-        "id":7,
-        "name":"Infosys",
-        "title":"sujal ajay meshram",
-        "price":0,
-        "category":"Notes1",
-        "image":"/infosys.png",
-        "description":"Boost skills with real-world experience through top internships."
-    },
-    {
-        "id":8,
-        "name":"Google",
-        "title":"bharat narayan sarkar",
+        "name":"Casio Watch",
+        "title":"",
         "price":1000,
-        "category":"Notes1",
-        "image":"/google.png",
-        "description":"Boost skills with real-world experience through top internships."
-    },
-    {
-        "id":9,
-        "name":"Microsoft",
-        "title":"satyam madhav gaikwad",
-        "price":3000,
         "category":"For Sale",
-        "image":"/microsoft.png",
-        "description":"Boost skills with real-world experience through top internships."
+        "image":"/Casio_MRW.jpg",
+        "description":"The Casio MRW-200HC-2BVDF is a sporty, durable watch with quartz movement, 100m water resistance, and a resin strap."
     },
+    
+    
 
 
 
@@ -96,8 +35,8 @@
 
     {
         "id":10,
-        "name":"Bajaj",
-        "title":"sujal ajay meshram",
+        "name":"codechef",
+        "title":"no image awailable",
         "price":0,
         "category":"Asgn1",
         "image":"",
@@ -106,7 +45,7 @@
     {
         "id":11,
         "name":"Phonepay",
-        "title":"sujal ajay meshram",
+        "title":"no image awailable",
         "price":0,
         "category":"Asgn1",
         "image":"",
@@ -114,8 +53,8 @@
     },
     {
         "id":12,
-        "name":"Paytm",
-        "title":"sujal ajay meshram",
+        "name":"codechef",
+        "title":"no image awailable",
         "price":0,
         "category":"Asgn1",
         "image":"",
@@ -123,8 +62,8 @@
     },
     {
         "id":13,
-        "name":"Pubmatic",
-        "title":"sujal ajay meshram",
+        "name":"hackerrank",
+        "title":"no image awailable",
         "price":0,
         "category":"Asgn1",
         "image":"",
@@ -133,65 +72,21 @@
 
     {
         "id":14,
-        "name":"Infosys",
-        "title":"sujal ajay meshram",
+        "name":"codeforces",
+        "title":"no image awailable",
         "price":0,
         "category":"Notes2",
-        "image":"/infosys.png",
+        "image":"/Casio_MRW.jpg",
         "description":"Boost skills with real-world experience through top internships."
     },
     {
         "id":15,
-        "name":"Google",
-        "title":"bharat narayan sarkar",
+        "name":"hackerrank",
+        "title":"no image awailable",
         "price":1000,
         "category":"Notes2",
-        "image":"/google.png",
-        "description":"Boost skills with real-world experience through top internships."
-    },
-    {
-        "id":16,
-        "name":"Microsoft",
-        "title":"satyam madhav gaikwad",
-        "price":3000,
-        "category":"Notes2",
-        "image":"/microsoft.png",
-        "description":"Boost skills with real-world experience through top internships."
-    },
-    {
-        "id":17,
-        "name":"Bajaj",
-        "title":"sujal ajay meshram",
-        "price":0,
-        "category":"Notes2",
-        "image":"",
-        "description":"Boost skills with real-world experience through top internships."
-    },
-    {
-        "id":18,
-        "name":"Phonepay",
-        "title":"sujal ajay meshram",
-        "price":0,
-        "category":"Notes2",
-        "image":"",
-        "description":"Boost skills with real-world experience through top internships."
-    },
-    {
-        "id":19,
-        "name":"Paytm",
-        "title":"sujal ajay meshram",
-        "price":0,
-        "category":"Notes2",
-        "image":"",
-        "description":"Boost skills with real-world experience through top internships."
-    },
-    {
-        "id":20,
-        "name":"Pubmatic",
-        "title":"sujal ajay meshram",
-        "price":0,
-        "category":"Asgn1",
-        "image":"",
+        "image":"/Casio_MRW.jpg",
         "description":"Boost skills with real-world experience through top internships."
     }
+    
 ]

@@ -14,7 +14,7 @@ function Cards({ item }) {
                             {item.name}
                             <div
                                 className={`badge ${item.category === 'For Sale'
-                                        ? 'bg-pink-500 text-white'
+                                        ? 'bg-orange-400 text-black'
                                         : item.category === 'Fashion'
                                         ? 'bg-green-500 text-white'
                                         : item.category === 'Books'
@@ -25,7 +25,7 @@ function Cards({ item }) {
                                 {item.category}
                             </div>
                         </h2>
-                        <p className="text-left">{item.description}</p>
+                        <p className="text-left text-[15px]">{item.description}</p>
                         <div className="card-actions justify-between">
                             {/* <div className="badge badge-outline">Rs. {item.price}</div> */}
                             {item.category === 'For Sale' && (
