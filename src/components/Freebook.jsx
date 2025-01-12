@@ -69,7 +69,7 @@ function Freebook() {
                 <div className="slider-container overflow-hidden px-8 py-1 text-center">
                     <Slider {...settings}>
                         {/* <div>
-                        <h3>1</h3>
+                        <h3>11</h3>
                     </div>
                     <div>
                         <h3>2</h3>
