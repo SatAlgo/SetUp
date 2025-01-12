@@ -55,7 +55,7 @@ function Freebook() {
                         Here, you can buy, sell, and showcase gadgets essential for your engineering journey. Whether it's tools, accessories, or any other device, find everything you need to enhance your learning and daily activities.
                     </p>
                     <br />
-                    <p className='text-sm text-gray-500 max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row '>
+                    <p className='text-sm text-gray-500 max-w-screen-2xl container mx-auto md:px-20 px-4 md:flex-row '>
                         If you'd like to showcase something for sale, feel free to 
                         <a
                             href="https://t.me/+NKT8OoynbggwZTk1"

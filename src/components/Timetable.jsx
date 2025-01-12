@@ -51,7 +51,7 @@ function Timetable() {
         //   { time: '11:26 PM - 12:20 AM', subject: 'DBMS Theory', teacher: 'BKT', location: '420' },
 
         // ],
-        
+
       },
       2: {
         Monday: [
@@ -275,6 +275,17 @@ function Timetable() {
 
 
       </div>
+
+      <p className='text-sm text-center text-gray-500 max-w-screen-2xl container mt-7 mx-auto md:px-20 px-4 items-center md:items-center'>
+      The timetable is currently available only for the A4 batch. If you'd like a timetable for your batch, feel free to 
+        <a
+          href="https://www.linkedin.com/in/satyam-gaikwad-27a7a724b/"
+          className="inline md:px-1 text-indigo-500 underline hover:text-blue-700"
+        >
+          contact me!
+        </a>
+
+      </p>
 
       <Link to="/" className="mt-5 mb-4 text-blue-500 hover:text-blue-700">Back to Home</Link>
 
