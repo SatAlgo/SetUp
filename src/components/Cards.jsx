@@ -10,16 +10,16 @@ function Cards({ item }) {
                         <img src={item.image} alt={item.title} />
                     </figure>
                     <div className="card-body p-5">
-                        <h2 className="card-title justify-between">
+                        <h2 className="card-title justify-between text-violet-500">
                             {item.name}
                             <div
                                 className={`badge ${item.category === 'For Sale'
-                                        ? 'bg-lime-400 text-black'
-                                        : item.category === 'Fashion'
+                                    ? 'bg-lime-400 text-black'
+                                    : item.category === 'Fashion'
                                         ? 'bg-green-500 text-white'
                                         : item.category === 'Books'
-                                        ? 'bg-purple-500 text-white'
-                                        : 'bg-gray-500 text-white'
+                                            ? 'bg-purple-500 text-white'
+                                            : 'bg-gray-500 text-white'
                                     } rounded-md`}
                             >
                                 {item.category}
