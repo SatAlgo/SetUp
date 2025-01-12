@@ -26,7 +26,7 @@ function Essetials(){
           </p>
           <Link to="/">
             <button className="mb-6 mr-3 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
-              Back
+              Go Back
             </button>
           </Link>
           <Link to="/Tools">

@@ -59,7 +59,7 @@ function Freebook() {
                         If you'd like to showcase something for sale, feel free to 
                         <a
                             href="https://t.me/+NKT8OoynbggwZTk1"
-                            className="inline md:px-1 text-indigo-500 underline hover:text-blue-700 ml-1"
+                            className="inline md:px-1 text-indigo-500  hover:text-blue-700 ml-1"
                         >
                             contact us!
                         </a>

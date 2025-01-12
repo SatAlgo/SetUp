@@ -22,9 +22,9 @@ function Banner() {
               strings={[
                 "Gadgets",
                 "Assignments",
-                "Projects",
+                "Projects 📽",
                 "Assignments",
-                "Notes",
+                "Notes 📝",
                 "Previous Year Papers",
               ]}
               typeSpeed={30}

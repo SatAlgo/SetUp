@@ -30,7 +30,7 @@ function Note() {
           </p>
           <Link to="/">
             <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
-              Back
+              Go Back
             </button>
           </Link>
         </div>

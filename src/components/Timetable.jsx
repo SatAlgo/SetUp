@@ -223,7 +223,7 @@ function Timetable() {
               </div>
             </div>
           ) : (
-            <p className="text-gray-700 dark:text-gray-100">No current lecture.</p>
+            <p className="text-gray-700 dark:text-gray-100">No lecture is currently scheduled.</p>
           )}
         </div>
 
@@ -249,7 +249,7 @@ function Timetable() {
               </div>
             </div>
           ) : (
-            <p className="text-gray-700 dark:text-gray-100">No more lectures for today.</p>
+            <p className="text-gray-700 dark:text-gray-100">No more lectures are scheduled for today.</p>
           )}
         </div>
 
@@ -280,7 +280,7 @@ function Timetable() {
       The timetable is currently available only for the A4 batch(SY). If you'd like a timetable for your batch, feel free to 
         <a
           href="https://www.linkedin.com/in/satyam-gaikwad-27a7a724b/"
-          className="inline ml-1 md:px-1 text-indigo-500 underline hover:text-blue-700"
+          className="inline ml-1 md:px-1 text-indigo-500 hover:text-blue-700"
         >
           contact me!
         </a>

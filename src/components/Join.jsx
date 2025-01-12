@@ -51,7 +51,7 @@ function Support() {
 
                     <Link to="/">
                         <button className="mb-5 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
-                            Back
+                            Go Back
                         </button>
                     </Link>
                     <div className="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-6 flex flex-col items-center">

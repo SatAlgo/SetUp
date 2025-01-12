@@ -30,7 +30,7 @@ function Cards({ item }) {
 
                             <div
                                 className={`badge ${item.category === 'For Sale'
-                                    ? 'bg-lime-600 text-black'
+                                    ? 'bg-lime-400 text-black'
                                     : item.category === 'Fashion'
                                         ? 'bg-green-500 text-white'
                                         : item.category === 'Books'
