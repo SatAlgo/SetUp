@@ -161,7 +161,7 @@ function Timetable() {
 
   return (
     <div className="mt-[64px] md:mt-[68px] flex flex-col items-center justify-center min-h-screen bg-slate-100 dark:bg-slate-900 dark:text-white px-4">
-      <h1 className="text-3xl font-bold mb-4 text-teal-400">Class Timetable</h1>
+      <h1 className="text-3xl font-bold mb-4 text-teal-400">Class Timetable SY</h1>
 
       <div className="mb-5">
         <label htmlFor="division" className="mr-3">Select Division:</label>
@@ -198,7 +198,7 @@ function Timetable() {
       </div>
 
       <div className="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-6 w-full max-w-lg">
-        <h2 className="text-xl font-semibold mb-4">Timetable for <span className="text-blue-600">{division}</span> - <span className="text-blue-600">{batch}</span> Batch of 2nd Year</h2>
+        <h2 className="text-xl font-semibold mb-4">Timetable for <span className="text-blue-600">{division}</span> - <span className="text-blue-600">{batch}</span> Batch</h2>
 
 
         <div className="mb-5">
@@ -277,10 +277,10 @@ function Timetable() {
       </div>
 
       <p className='text-sm text-center text-gray-500 max-w-screen-2xl container mt-7 mx-auto md:px-20 px-4 items-center md:items-center'>
-      The timetable is currently available only for the A4 batch. If you'd like a timetable for your batch, feel free to 
+      The timetable is currently available only for the A4 batch(SY). If you'd like a timetable for your batch, feel free to 
         <a
           href="https://www.linkedin.com/in/satyam-gaikwad-27a7a724b/"
-          className="inline md:px-1 text-indigo-500 underline hover:text-blue-700"
+          className="inline ml-1 md:px-1 text-indigo-500 underline hover:text-blue-700"
         >
           contact me!
         </a>

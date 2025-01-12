@@ -9,10 +9,10 @@ function Footer() {
       <hr />
       <footer className="footer footer-center p-10 text-base-content rounded dark:bg-slate-900 dark:text-white">
         <nav className="grid grid-flow-col gap-4">
-          <a href="https://www.linkedin.com/posts/satyam-gaikwad-27a7a724b_python-automation-gamedevelopment-activity-7218149338466705408-QmFg?utm_source=share&utm_medium=member_desktop"
+          <a href="https://www.linkedin.com/posts/satyam-gaikwad-27a7a724b_kitup-frontenddevelopment-studentlife-activity-7230963266670256128-qlJg?utm_source=share&utm_medium=member_desktop"
             target="_blank"
             className="link link-hover">About Us</a>
-          <a href="https://t.me/+NKT8OoynbggwZTk1"
+          <a href="https://www.linkedin.com/in/satyam-gaikwad-27a7a724b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             className="link link-hover">Contact</a>
           <a href="/JoinUs" className="link link-hover">Join</a>
