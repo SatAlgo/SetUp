@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import Iteam from "./Iteam";
+import Cards from "./Cards";
 import list from "../list.json";
 import { Link } from "react-router-dom";
 
 function Assignments() {
   // Filter out items with category "PPT" and "PDF"
   const assignFirst = list.filter((item) => item.category === "Asgn1");
-  const assignSecond = list.filter((item) => item.category === "Free");
+  const assignSecond = list.filter((item) => item.category === "Asgn3");
 
   // State to manage visibility of sections
   const [showFirstSection, setShowFirstSection] = useState(true);
@@ -72,7 +72,7 @@ function Assignments() {
             </h1>
             <div className="mt-4 grid grid-cols-1 md:grid-cols-4 gap-4">
               {assignFirst.map((item) => (
-                <Iteam key={item.id} item={item} />
+                <Cards key={item.id} item={item} />
               ))}
             </div>
           </>
@@ -87,7 +87,7 @@ function Assignments() {
             </h1>
             <div className="mt-4 grid grid-cols-1 md:grid-cols-4 gap-4">
               {assignSecond.map((item) => (
-                <Iteam key={item.id} item={item} />
+                <Cards key={item.id} item={item} />
               ))}
             </div>
           </>

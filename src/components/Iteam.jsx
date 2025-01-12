@@ -14,7 +14,7 @@ function Cards({ item }) {
     return (
         <>
             <div className="mt-4 my-3 p-[2px]">
-                <div className="card w-92 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
+                <div className="card w-92 h-[420px] shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
                     <figure>
                         <img
                             src={item.image}
@@ -30,7 +30,7 @@ function Cards({ item }) {
 
                             <div
                                 className={`badge ${item.category === 'For Sale'
-                                    ? 'bg-blue-500 text-white'
+                                    ? 'bg-lime-600 text-black'
                                     : item.category === 'Fashion'
                                         ? 'bg-green-500 text-white'
                                         : item.category === 'Books'
@@ -41,7 +41,7 @@ function Cards({ item }) {
                                 {item.category}
                             </div>
                         </h2>
-                        <p className="text-left">{item.description}</p>
+                        <p className="text-left text-[12px]">{item.description}</p>
                         <div className="card-actions justify-center">
                             {/* <div className="badge badge-outline">Rs. {item.price}</div> */}
                             {item.category === 'For Sale' && (

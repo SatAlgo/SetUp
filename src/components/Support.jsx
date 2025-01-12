@@ -13,11 +13,14 @@ function Support() {
                 Thank you😊!
             </p>
 
-            <Link to="/">
+            {/* <Link to="/">
                 <button className="mb-5 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
                     Back
                 </button>
-            </Link>
+            </Link> */}
+
+            <Link to="/" className="mb-5 text-blue-500 hover:text-blue-700">Go Back</Link>
+
             <div className="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-6 flex flex-col items-center">
                 <img
                     src={qrCodeImage}

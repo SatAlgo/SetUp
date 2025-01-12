@@ -53,7 +53,7 @@ function Tools() {
         </button>
       </Link> */}
 
-      <Link to="/" className="mt-5 text-gray-500 underline hover:text-blue-700">Go Back</Link>
+      <Link to="/" className="mt-5 text-gray-500 underline hover:text-gray-700">Go Back</Link>
     </div>
   );
 }

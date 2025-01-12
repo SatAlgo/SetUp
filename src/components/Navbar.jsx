@@ -52,6 +52,9 @@ function Navbar() {
             <li className="hover:underline transition duration-200">
                 <a href="/Mores">More</a>
             </li>
+            <li className="hover:underline transition duration-200">
+                <a href="/TT">TT</a>
+            </li>
 
         </>
     );

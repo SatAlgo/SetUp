@@ -167,8 +167,12 @@ function More() {
           <div className="px-4">
             <h2 className="mb-2 text-xl text-teal-500">Books</h2>
             <ul className="list-disc list-inside">
+              <a href="https://1drv.ms/b/c/fc1755c51a0b0c9f/EZ8MCxrFVRcggPyEtgAAAAABYLx206hUJInwSVhLjLKXiw">
               <li>Atomic Habits</li>
+              </a>
+              <a href="https://1drv.ms/b/c/fc1755c51a0b0c9f/EZ8MCxrFVRcggPzDAAAAAAABJbQ3Q2PTxrS3eXFgBrhrHQ">
               <li>Leading In Tough Times</li>
+              </a>
               <li>The Subtle Art of Not Giving a F*ck</li>
               <li>Getting Things Done</li>
             </ul>

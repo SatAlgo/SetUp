@@ -36,7 +36,7 @@ function Banner() {
             <button className="mt-12 mr-5 btn btn-secondary">Get Started</button>
           </Link> */}
           <Link to="/TT">
-            <button className="mt-12 bg-teal-400 hover:bg-teal-500 text-black btn btn-secondary">Time Table</button>
+            <button className="mt-12 bg-teal-400 hover:bg-teal-500 text-black btn btn-secondary border-black">Time Table</button>
           </Link>
           <p className="text-xl">
             <span className="text-red-600 text-xl font-semibold">

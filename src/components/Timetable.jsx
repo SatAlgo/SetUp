@@ -12,35 +12,46 @@ function Timetable() {
     A: {
       4: {
         Monday: [
-          { time: '8:30 AM - 10:20 AM', subject: 'EAD(Adv JAVA) Lab', teacher: 'Vinodini Gupta', location: 'H207B' },
+          { time: '08:30 AM - 10:20 AM', subject: 'EAD(Adv JAVA) Lab', teacher: 'Vinodini Gupta', location: 'H207B' },
           { time: '10:30 AM - 12:20 PM', subject: 'EVS Theory', teacher: 'NVB', location: 'H202' },
           { time: '01:15 PM - 03:05 PM', subject: 'DBMS Lab', teacher: 'MNV', location: 'H306C' },
 
         ],
         Tuesday: [
-          { time: '8:30 AM - 10:20 AM', subject: 'EAD(Adv JAVA) Lab', teacher: 'Vinodini Gupta', location: 'H207B' },
+          { time: '08:30 AM - 10:20 AM', subject: 'EAD(Adv JAVA) Lab', teacher: 'Vinodini Gupta', location: 'H207B' },
           { time: '10:30 AM - 12:20 PM', subject: 'EI Lab', teacher: 'PDG', location: 'H204B' },
           { time: '01:15 PM - 02:10 PM', subject: 'DBMS Theory', teacher: 'MNV', location: 'H309' },
-          { time: '02:10 PM - 03:05 PM', subject: 'TOC', teacher: 'SBK', location: 'H309' },
+          { time: '02:11 PM - 03:05 PM', subject: 'TOC', teacher: 'SBK', location: 'H309' },
         ],
         Wednesday: [
-          { time: '8:30 AM - 10:20 AM', subject: 'Proto(Mech) Lab', teacher: 'ORP', location: 'H002' },
+          { time: '08:30 AM - 10:20 AM', subject: 'Proto(Mech) Lab', teacher: 'ORP', location: 'H002' },
           { time: '10:30 AM - 12:20 PM', subject: 'Proto(Civil) Lab', teacher: 'SGS', location: 'H001' },
           { time: '01:15 PM - 02:10 PM', subject: 'TOC', teacher: 'SBK', location: 'H309' },
-          { time: '02:10 PM - 03:05 PM', subject: 'ADS', teacher: 'BA', location: 'H309' },
+          { time: '02:11 PM - 03:05 PM', subject: 'ADS', teacher: 'BA', location: 'H309' },
         ],
         Thursday: [
-          { time: '8:30 AM - 9:24 AM', subject: 'EI Theory', teacher: 'PDG', location: 'H309' },
-          { time: '09:24 AM - 10:20 AM', subject: 'DBMS Theory', teacher: 'MNV', location: 'H309' },
+          { time: '08:30 AM - 09:25 AM', subject: 'EI Theory', teacher: 'PDG', location: 'H309' },
+          { time: '09:26 AM - 10:20 AM', subject: 'DBMS Theory', teacher: 'MNV', location: 'H309' },
           { time: '10:30 AM - 12:20 PM', subject: 'ADS Lab', teacher: 'BA', location: 'H207B' },
         ],
         Friday: [
-          { time: '8:30 AM - 9:24 AM', subject: 'TOC Theory', teacher: 'SBK', location: 'H309' },
-          { time: '09:24 AM - 10:20 PM', subject: 'DBMS Theory', teacher: 'MNV', location: 'H309' },
-          { time: '10:30 AM - 11:24 AM', subject: 'EI Theory', teacher: 'PDG', location: 'H309' },
-          { time: '11:24 AM - 12:20 PM', subject: 'ADS Theory', teacher: 'BA', location: 'H309' },
+          { time: '08:30 AM - 09:25 AM', subject: 'TOC Theory', teacher: 'SBK', location: 'H309' },
+          { time: '09:26 AM - 10:20 AM', subject: 'DBMS Theory', teacher: 'MNV', location: 'H309' },
+          { time: '10:30 AM - 11:25 AM', subject: 'EI Theory', teacher: 'PDG', location: 'H309' },
+          { time: '11:26 AM - 12:20 PM', subject: 'ADS Theory', teacher: 'BA', location: 'H309' },
         ],
-        // Add other days (Wednesday, Thursday, Friday) here...
+        // Saturday: [
+        //   { time: '12:30 AM - 01:25 AM', subject: 'TOC Theory', teacher: 'SBK', location: 'H309' },
+        //   { time: '01:26 AM - 02:20 AM', subject: 'DBMS Theory', teacher: 'MNV', location: 'H309' },
+
+        // ],
+        // Sunday: [
+        //   { time: '12:00 PM - 01:25 PM', subject: 'TOC Theory', teacher: 'SBK', location: 'H309' },
+        //   { time: '01:26 PM - 02:20 PM', subject: 'DBMS Theory', teacher: 'MNV', location: 'H09' },
+        //   { time: '11:26 PM - 12:20 AM', subject: 'DBMS Theory', teacher: 'BKT', location: '420' },
+
+        // ],
+        
       },
       2: {
         Monday: [
@@ -48,7 +59,7 @@ function Timetable() {
           { time: '02:00 PM - 03:00 PM', subject: 'Physics', teacher: 'Prof. Johnson', location: 'Room 102' },
         ],
         Tuesday: [
-          { time: '11:00 AM - 12:00 PM', subject: 'Chemistry', teacher: 'Dr. White', location: 'Room 103' },
+          { time: '12:00 PM - 01:00 PM', subject: 'Chemistry', teacher: 'Dr. White', location: 'Room 103' },
           { time: '02:00 PM - 03:00 PM', subject: 'Biology', teacher: 'Prof. Green', location: 'Room 104' },
           { time: '04:00 PM - 08:00 PM', subject: 'Physics', teacher: 'Prof. Johnson', location: 'Room 102' },
         ],
@@ -83,33 +94,37 @@ function Timetable() {
     }
   };
 
+
+
+
   const getCurrentAndNextLectures = (dayTimetable, currentTimeInMinutes) => {
     let current = null;
     let next = null;
-    let foundNextLecture = false;
 
     dayTimetable.forEach((lecture, index) => {
       const [startTime, endTime] = lecture.time.split(' - ');
       const start = convertToMinutes(startTime);
       const end = convertToMinutes(endTime);
 
-      // Check if current time is within the lecture's time range
+      // Check if the current time falls within the lecture time
       if (currentTimeInMinutes >= start && currentTimeInMinutes < end) {
         current = lecture;
-      } else if (currentTimeInMinutes < start && !foundNextLecture) {
+      }
+
+      // Find the next lecture that starts after the current time
+      if (currentTimeInMinutes < start && !next) {
         next = lecture;
-        foundNextLecture = true;
       }
     });
 
-    if (!current && next) {
-      // If no current lecture, set the next lecture as current
-      current = next;
+    // If no next lecture for the current day, check for the first lecture of the next day
+    if (!next && !current) {
       next = getNextLectureForNextDay();
     }
 
     return [current, next];
   };
+
 
   const convertToMinutes = (time) => {
     const [hour, minute] = time.split(':');
@@ -126,15 +141,26 @@ function Timetable() {
   };
 
   const getNextLectureForNextDay = () => {
-    const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
-    const nextDayIndex = (daysOfWeek.indexOf(new Date().toLocaleString('en-US', { weekday: 'long' })) + 1) % daysOfWeek.length;
-    const nextDay = daysOfWeek[nextDayIndex];
+    const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+    const currentDayIndex = daysOfWeek.indexOf(new Date().toLocaleString('en-US', { weekday: 'long' }));
 
-    return timetableData[division][batch][nextDay][0]; // Return the first lecture for the next day
+    for (let i = 1; i < daysOfWeek.length; i++) {
+      const nextDayIndex = (currentDayIndex + i) % daysOfWeek.length;
+      const nextDay = daysOfWeek[nextDayIndex];
+
+      if (timetableData[division] && timetableData[division][batch][nextDay]) {
+        return timetableData[division][batch][nextDay][0]; // First lecture of the next available day
+      }
+    }
+
+    return null; // No next lecture found in the upcoming week
   };
 
+
+
+
   return (
-    <div className="mb-0 mt-[64px] md:mt-6 flex flex-col items-center justify-center min-h-screen bg-slate-100 dark:bg-slate-900 dark:text-white px-4">
+    <div className="mt-[64px] md:mt-[68px] flex flex-col items-center justify-center min-h-screen bg-slate-100 dark:bg-slate-900 dark:text-white px-4">
       <h1 className="text-3xl font-bold mb-4 text-teal-400">Class Timetable</h1>
 
       <div className="mb-5">
@@ -143,7 +169,7 @@ function Timetable() {
           id="division"
           value={division}
           onChange={handleDivisionChange}
-          className="px-4 py-2 rounded-md dark:text-black"
+          className="px-4 py-2 rounded-md bg-slate-700 text-white dark:bg-gray-300 dark:text-black"
         >
           <option value="">Select Division</option>
           <option value="A">A</option>
@@ -160,7 +186,7 @@ function Timetable() {
           id="batch"
           value={batch}
           onChange={handleBatchChange}
-          className="px-4 py-2 rounded-md dark:text-black"
+          className="px-4 py-2 rounded-md bg-slate-700 text-white dark:bg-gray-300 dark:text-black"
         >
           <option value="">Select Batch</option>
           {/* <option value="1">1</option>
@@ -172,35 +198,61 @@ function Timetable() {
       </div>
 
       <div className="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-6 w-full max-w-lg">
-        <h2 className="text-xl font-semibold mb-4">Timetable for <span className="text-blue-500">{division}</span> - <span className="text-blue-500">{batch}</span> Batch</h2>
+        <h2 className="text-xl font-semibold mb-4">Timetable for <span className="text-blue-600">{division}</span> - <span className="text-blue-600">{batch}</span> Batch of 2nd Year</h2>
+
 
         <div className="mb-5">
-          <p className="font-semibold text-red-500">Current Lecture:</p>
+          <p className="font-semibold text-red-500 text-lg mb-2">Current Lecture:</p>
           {currentLecture ? (
-            <div className=''>
-              <p>Time: <span className='font-semibold text-black dark:bg-slate-900 dark:text-yellow-300 '>{currentLecture.time}</span> <br />
-                <span className='font-semibold text-black dark:bg-slate-900 dark:text-purple-400 '>{currentLecture.subject}</span>
-              </p>
-              <p>Teacher: <span className='font-semibold text-black dark:bg-slate-900 dark:text-yellow-300 '>{currentLecture.teacher}</span></p>
-              <p>Location: <span className='font-semibold text-black dark:bg-slate-900 dark:text-yellow-300 '>{currentLecture.location}</span></p>
+            <div className="space-y-2">
+              <div className="flex">
+                <p className="font-bold w-28">Subject:</p>
+                <p>{currentLecture.subject}</p>
+              </div>
+              <div className="flex">
+                <p className="font-bold w-28">Teacher:</p>
+                <p>{currentLecture.teacher}</p>
+              </div>
+              <div className="flex">
+                <p className="font-bold w-28">Time:</p>
+                <p>{currentLecture.time}</p>
+              </div>
+              <div className="flex">
+                <p className="font-bold w-28">Location:</p>
+                <p>{currentLecture.location}</p>
+              </div>
             </div>
           ) : (
-            <p>No current lecture available.</p>
-          )}
-
-          <p className="font-semibold mt-2 text-green-500">Next Lecture:</p>
-          {nextLecture ? (
-            <div>
-              <p>The next lecture will be on <span className='font-semibold text-black dark:bg-slate-900 dark:text-yellow-300 '>{new Date().toLocaleDateString('en-GB')}</span> <br />
-                Time: <span className='font-semibold text-black dark:bg-slate-900 dark:text-yellow-300 '> {nextLecture.time}</span></p>
-              <p><span className='font-semibold text-black dark:bg-slate-900 dark:text-purple-400 '>{currentLecture.subject}</span><br />
-                Teacher: <span className='font-semibold text-black dark:bg-slate-900 dark:text-yellow-300 '>{currentLecture.teacher}</span><br />
-                Location: <span className='font-semibold text-black dark:bg-slate-900 dark:text-yellow-300 '>{currentLecture.location}</span></p>
-            </div>
-          ) : (
-            <p>No more lectures for today.</p>
+            <p className="text-gray-700 dark:text-gray-100">No current lecture.</p>
           )}
         </div>
+
+        <div className="mb-5">
+          <p className="font-semibold text-green-500 text-lg mb-2">Next Lecture:</p>
+          {nextLecture ? (
+            <div className="space-y-2">
+              <div className="flex">
+                <p className="font-bold w-28">Subject:</p>
+                <p>{nextLecture.subject}</p>
+              </div>
+              <div className="flex">
+                <p className="font-bold w-28">Teacher:</p>
+                <p>{nextLecture.teacher}</p>
+              </div>
+              <div className="flex">
+                <p className="font-bold w-28">Time:</p>
+                <p>{nextLecture.time}</p>
+              </div>
+              <div className="flex">
+                <p className="font-bold w-28">Location:</p>
+                <p>{nextLecture.location}</p>
+              </div>
+            </div>
+          ) : (
+            <p className="text-gray-700 dark:text-gray-100">No more lectures for today.</p>
+          )}
+        </div>
+
 
         <div className="mt-5">
           {/* <p className="text-sm text-gray-500">{new Date().toLocaleString()} <br />MM/DD/YYYY</p> */}
@@ -219,9 +271,13 @@ function Timetable() {
 
 
         </div>
+
+
+
       </div>
 
-      <Link to="/" className="mt-5 text-blue-500 hover:text-blue-700">Go Back</Link>
+      <Link to="/" className="mt-5 mb-4 text-blue-500 hover:text-blue-700">Back to Home</Link>
+
     </div>
   );
 }
