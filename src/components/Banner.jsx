@@ -16,7 +16,7 @@ function Banner() {
           we make it easy for you to find the resources you need to excel in your academics and beyond.
           </p>
           <div className="mt-6 flex flex-col  space-x text-2xl md:text-4xl">
-            <h2>Here, you can get</h2>
+            <h2 className="text-[30px] text-purple-300">Here, you can get:</h2>
             <ReactTyped
               className="text-orange-500 font-bold"
               strings={[
@@ -43,7 +43,7 @@ function Banner() {
               Note:{" "}
             </span>
             <br />
-            <p className="text-[18px]">The content on the site is regularly updated. Please verify 
+            <p className="text-[18px] text-gray-400">The content on the site is regularly updated. Please verify 
               <br/>the details for the most accurate and current information.</p>
           </p>
         </div>
