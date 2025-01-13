@@ -12,14 +12,14 @@ function Timetable() {
     A: {
       4: {
         Monday: [
-          { time: '08:30 AM - 10:20 AM', subject: 'EAD(Adv JAVA) Lab', teacher: 'Vinodini Gupta', location: 'H207B' },
+          { time: '08:30 AM - 10:20 AM', subject: 'EI Lab', teacher: 'STW', location: 'H207B' },
           { time: '10:30 AM - 12:20 PM', subject: 'EVS Theory', teacher: 'NVB', location: 'H202' },
           { time: '01:15 PM - 03:05 PM', subject: 'DBMS Lab', teacher: 'MNV', location: 'H306C' },
 
         ],
         Tuesday: [
           { time: '08:30 AM - 10:20 AM', subject: 'EAD(Adv JAVA) Lab', teacher: 'Vinodini Gupta', location: 'H207B' },
-          { time: '10:30 AM - 12:20 PM', subject: 'EI Lab', teacher: 'PDG', location: 'H204B' },
+          { time: '10:30 AM - 12:20 PM', subject: 'EAD(Adv JAVA) Lab', teacher: 'Vinodini Gupta', location: 'H204B' },
           { time: '01:15 PM - 02:10 PM', subject: 'DBMS Theory', teacher: 'MNV', location: 'H309' },
           { time: '02:11 PM - 03:05 PM', subject: 'TOC', teacher: 'SBK', location: 'H309' },
         ],
