@@ -57,8 +57,8 @@ function Timetable() {
   const timetable = division && batch ? timetableData[division]?.[batch]?.[day] : [];
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900 dark:text-white px-4">
-
+    <div className="mb-16 flex flex-col items-center justify-center  bg-gray-100 dark:bg-gray-900 dark:text-white px-4">
+        <h1 className="text-xl font-bold mb-4 text-rose-400">Complete Daywise Timetable</h1>
       <div className="mb-5 flex flex-wrap md:space-x-4 space-y-3 md:space-y-0">
         <div className="w-full md:w-auto">
           <label htmlFor="division" className="block mb-2 font-medium">Select Division:</label>
