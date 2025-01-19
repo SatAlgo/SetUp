@@ -35,7 +35,7 @@ function Footer() {
               </svg>
             </a> */}
 
-            <a href="https://satyamgaikwad.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-[28px]">
+            <a href="https://satyamgaikwad.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-[25px]">
               <i class="fas fa-globe "></i> 👨‍💻
             </a>
 

@@ -290,6 +290,7 @@ function Timetable() {
       <Link to="/" className="mt-5 mb-4 text-blue-500 hover:text-blue-700">Back to Home</Link>
 
     </div>
+
   );
 }
 

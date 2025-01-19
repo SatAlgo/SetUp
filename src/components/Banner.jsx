@@ -50,7 +50,7 @@ function Banner() {
       </div>
       <div className=" order-1 w-full md:w-1/2">
         {/* You can add content her if needed */}
-        <img src='/banner.png' className="w-92 h-92 mt-32 " alt="" />
+        <img src='/banner.png' className="w-92 h-92 mt-[70px] md:mt-32 " alt="" />
       </div>
     </div>
   );

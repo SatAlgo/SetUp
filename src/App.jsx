@@ -30,6 +30,7 @@ function App() {
         <Route path="/JoinUs" element={<JoinUs />} />
         {/* <Route path="/TimeTable" element={<Timetable />} /> */}
         <Route path="/TT" element={<TT />} />
+        <Route path="/TableTT" element={<TT />} />
       </Routes>
       </div>
       
