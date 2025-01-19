@@ -35,6 +35,15 @@
         "image":"/StudyTable.jpg",
         "description":"The Foldable Study Table is a versatile, compact table with adjustable incline, a foldable design for easy storage, and a whiteboard surface for convenient note-taking."
     },
+    {
+        "id":5,
+        "name":"Roommate Required",
+        "title":"",
+        "price":479,
+        "category":"Flex",
+        "cantact": "tel:7822099563",
+        "description":"A 1BHK flat at Crystal Heights, Dehu Phata, is available for ₹3750/month (₹15,000/4) with amenities including 5 beds, 2 balconies, 2 geyser-equipped washrooms, a kitchen with a water purifier, a lift and much more. No deposit required. Contact:- 7822099563"
+    },
     
     
 

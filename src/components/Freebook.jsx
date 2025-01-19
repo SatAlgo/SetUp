@@ -9,7 +9,7 @@ import Cards from "./Cards";
 
 
 function Freebook() {
-    const filterData = list.filter((data) => data.category === "For Sale");
+    const filterData = list.filter((data) => data.category === "For Sale" || data.category === "Flex");
     var settings = {
         dots: true,
         infinite: true,

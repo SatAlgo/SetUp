@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import Login from './Login';
 import pic from "../../public/kk.jpg";
 
@@ -37,23 +38,70 @@ function Navbar() {
     }, []);
     const navItems = (
         <>
-            <li className="hover:underline transition duration-200">
-                <a href="/">Home</a>
+            <li className="transition duration-200">
+                <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                        isActive ? "underline text-sky-500" : "hover:underline"
+                    }
+                >
+                    Home
+                </NavLink>
             </li>
-            <li className="hover:underline transition duration-200">
-                <a href="/Essentials">Essentials</a>
+            
+            <li className="transition duration-200">
+                <NavLink
+                    to="/Essentials"
+                    className={({ isActive }) =>
+                        isActive ? "underline text-sky-500" : "hover:underline"
+                    }
+                >
+                    Essentials
+                </NavLink>
             </li>
-            <li className="hover:underline transition duration-200">
-                <a href="/Assignments">Assignments</a>
+
+            <li className="transition duration-200">
+                <NavLink
+                    to="/Assignments"
+                    className={({ isActive }) =>
+                        isActive ? "underline text-sky-500" : "hover:underline"
+                    }
+                >
+                    Assignments
+                </NavLink>
             </li>
-            <li className="hover:underline transition duration-200">
-                <a href="/Notes">Notes</a>
+
+            <li className="transition duration-200">
+                <NavLink
+                    to="/Notes"
+                    className={({ isActive }) =>
+                        isActive ? "underline text-sky-500" : "hover:underline"
+                    }
+                >
+                    Notes
+                </NavLink>
             </li>
-            <li className="hover:underline transition duration-200">
-                <a href="/Mores">More</a>
+
+            <li className="transition duration-200">
+                <NavLink
+                    to="/Mores"
+                    className={({ isActive }) =>
+                        isActive ? "underline text-sky-500" : "hover:underline"
+                    }
+                >
+                    More
+                </NavLink>
             </li>
-            <li className="hover:underline transition duration-200">
-                <a href="/TT">TT</a>
+
+            <li className="transition duration-200">
+                <NavLink
+                    to="/TT"
+                    className={({ isActive }) =>
+                        isActive ? "underline text-sky-500" : "hover:underline"
+                    }
+                >
+                    TT
+                </NavLink>
             </li>
 
         </>
@@ -62,8 +110,8 @@ function Navbar() {
         <>
             <div
                 className={`max-w-screen-2xl container mx-auto md:px-6 px-4 bg-base-200 dark:bg-slate-800 dark:text-white fixed top-0 left-0 right-0 z-50 ${sticky
-                        ? "sticky-navbar shadow-md bg-base-300 dark:bg-slate-700 dark:text-white duration-300 transition-all ease-in-out"
-                        : ""
+                    ? "sticky-navbar shadow-md bg-base-300 dark:bg-slate-700 dark:text-white duration-300 transition-all ease-in-out"
+                    : ""
                     }`}
             >
                 <div className="navbar">

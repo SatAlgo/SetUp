@@ -35,12 +35,17 @@ function Footer() {
               </svg>
             </a> */}
 
+            <a href="https://satyamgaikwad.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-[28px]">
+              <i class="fas fa-globe "></i> 👨‍💻
+            </a>
+
             <a href="https://www.linkedin.com/in/satyam-gaikwad-27a7a724b/" target="_blank" rel="noopener noreferrer" className="">
               <FaLinkedin size={24} />
             </a>
-            <a href="" target="_blank" rel="noopener noreferrer" className="">
+            {/* <a href="" target="_blank" rel="noopener noreferrer" className="">
               <FaInstagram size={24} />
-            </a>
+            </a> */}
+
           </div>
         </nav>
         <aside>
