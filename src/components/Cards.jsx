@@ -48,7 +48,7 @@ function Cards({ item }) {
                                     href={`tel:${item.contact}`}
                                     className="cursor-pointer px-2 py-1 rounded-full border-[1px] badge badge-outline hover:bg-green-600 hover:text-white duration-200"
                                 >
-                                    Contact
+                                    Contact: 7822099563
                                 </a>
                             )} */}
 
@@ -57,7 +57,7 @@ function Cards({ item }) {
                                     href={`tel:${item.contact}`}
                                     className="cursor-pointer  flex items-center  hover:scale-110 transition-all duration-200"
                                 >
-                                    {/* Phone Icon */}
+                                    
                                     <FaPhoneAlt className="h-5 w-5 text-green-600 hover:text-green-500 transition-all duration-200" />
 
                                 </a>
