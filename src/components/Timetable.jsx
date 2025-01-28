@@ -160,8 +160,8 @@ function Timetable() {
 
 
   return (
-    <div className="mt-[64px] flex flex-col items-center justify-center min-h-screen bg-slate-100 dark:bg-slate-900 dark:text-white px-4">
-      <h1 className="text-3xl font-bold mb-4 text-teal-400">Class Timetable SY</h1>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-slate-100 dark:bg-slate-900 dark:text-white px-4">
+      <h1 className="mt-[64px] text-3xl font-bold mb-4 text-teal-400">Class Timetable SY</h1>
 
       <div className="mb-5">
         <label htmlFor="division" className="mr-3">Select Division:</label>

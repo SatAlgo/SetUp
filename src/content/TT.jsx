@@ -9,9 +9,7 @@ function TT() {
     return (
         <>
             <Navbar />
-            <div className="">
             <Timetable />
-            </div>
             <TableTT/>
             <Footer />
         </>
