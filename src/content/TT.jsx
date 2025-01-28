@@ -9,7 +9,7 @@ function TT() {
     return (
         <>
             <Navbar />
-            <div className="min-h-screen">
+            <div className="">
             <Timetable />
             </div>
             <TableTT/>
