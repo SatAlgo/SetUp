@@ -104,6 +104,17 @@ function Navbar() {
                 </NavLink>
             </li>
 
+            <li className="transition duration-200">
+                <NavLink
+                    to="/Games"
+                    className={({ isActive }) =>
+                        isActive ? "underline text-sky-500" : "hover:underline"
+                    }
+                >
+                    Games
+                </NavLink>
+            </li>
+
         </>
     );
     return (

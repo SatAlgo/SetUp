@@ -12,6 +12,7 @@ import SupportUs from './content/SupportUs';
 import ToolKit from './content/ToolKit';
 import JoinUs from './content/JoinUs';
 import TT from './content/TT';
+import Games from './content/Games'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         {/* <Route path="/TimeTable" element={<Timetable />} /> */}
         <Route path="/TT" element={<TT />} />
         <Route path="/TableTT" element={<TT />} />
+        <Route path="/Games" element={<Games />} />
       </Routes>
       </div>
       
