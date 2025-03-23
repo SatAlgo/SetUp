@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 function Timetable() {
-  const [division, setDivision] = useState('');
-  const [batch, setBatch] = useState('');
+  const [division, setDivision] = useState('A');
+  const [batch, setBatch] = useState('4');
   const [day, setDay] = useState(new Date().toLocaleString('en-US', { weekday: 'long' }));
 
   // Sample timetable data
