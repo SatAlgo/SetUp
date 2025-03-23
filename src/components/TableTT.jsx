@@ -10,19 +10,20 @@ function Timetable() {
     A: {
       4: {
         Monday: [
-          { time: '08:30 AM - 10:20 AM', subject: 'EI Lab', teacher: 'STW', location: 'H207B' },
+          { time: '08:30 AM - 10:20 AM', subject: 'EAD(Adv JAVA) Lab', teacher: 'Vinodini Gupta', location: 'H207B' },
           { time: '10:30 AM - 12:20 PM', subject: 'EVS Theory', teacher: 'NVB', location: 'H202' },
           { time: '01:15 PM - 03:05 PM', subject: 'DBMS Lab', teacher: 'MNV', location: 'H306C' },
+
         ],
         Tuesday: [
           { time: '08:30 AM - 10:20 AM', subject: 'EAD(Adv JAVA) Lab', teacher: 'Vinodini Gupta', location: 'H207B' },
-          { time: '10:30 AM - 12:20 PM', subject: 'EAD(Adv JAVA) Lab', teacher: 'Vinodini Gupta', location: 'H204B' },
+          { time: '10:30 AM - 12:20 PM', subject: 'EI Lab', teacher: 'Pramode Ganjewar', location: 'H204B' },
           { time: '01:15 PM - 02:10 PM', subject: 'DBMS Theory', teacher: 'MNV', location: 'H309' },
           { time: '02:11 PM - 03:05 PM', subject: 'TOC', teacher: 'SBK', location: 'H309' },
         ],
         Wednesday: [
           { time: '08:30 AM - 10:20 AM', subject: 'Proto(Mech) Lab', teacher: 'ORP', location: 'H002' },
-          { time: '10:30 AM - 12:20 PM', subject: 'Proto(Civil) Lab', teacher: 'SGS', location: 'H001' },
+          { time: '10:30 AM - 12:20 PM', subject: 'Proto(Che) Lab', teacher: 'MDS', location: 'B003' },
           { time: '01:15 PM - 02:10 PM', subject: 'TOC', teacher: 'SBK', location: 'H309' },
           { time: '02:11 PM - 03:05 PM', subject: 'ADS', teacher: 'BA', location: 'H309' },
         ],
@@ -37,6 +38,30 @@ function Timetable() {
           { time: '10:30 AM - 11:25 AM', subject: 'EI Theory', teacher: 'PDG', location: 'H309' },
           { time: '11:26 AM - 12:20 PM', subject: 'ADS Theory', teacher: 'BA', location: 'H309' },
         ],
+        // Saturday: [
+        //   { time: '12:30 AM - 01:25 AM', subject: 'TOC Theory', teacher: 'SBK', location: 'H309' },
+        //   { time: '01:26 AM - 02:20 AM', subject: 'DBMS Theory', teacher: 'MNV', location: 'H309' },
+
+        // ],
+        // Sunday: [
+        //   { time: '12:00 PM - 01:25 PM', subject: 'TOC Theory', teacher: 'SBK', location: 'H309' },
+        //   { time: '01:26 PM - 02:20 PM', subject: 'DBMS Theory', teacher: 'MNV', location: 'H09' },
+        //   { time: '11:26 PM - 12:20 AM', subject: 'DBMS Theory', teacher: 'BKT', location: '420' },
+
+        // ],
+
+      },
+      2: {
+        Monday: [
+          { time: '11:00 AM - 12:00 PM', subject: 'Math', teacher: 'Dr. Smith', location: 'Room 101' },
+          { time: '02:00 PM - 03:00 PM', subject: 'Physics', teacher: 'Prof. Johnson', location: 'Room 102' },
+        ],
+        Tuesday: [
+          { time: '12:00 PM - 01:00 PM', subject: 'Chemistry', teacher: 'Dr. White', location: 'Room 103' },
+          { time: '02:00 PM - 03:00 PM', subject: 'Biology', teacher: 'Prof. Green', location: 'Room 104' },
+          { time: '04:00 PM - 08:00 PM', subject: 'Physics', teacher: 'Prof. Johnson', location: 'Room 102' },
+        ],
+        // Add other days (Wednesday, Thursday, Friday) here...
       },
     },
   };
