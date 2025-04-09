@@ -16,3 +16,8 @@ function Home() {
 }
 
 export default Home
+
+
+// git add .
+// git commit -m "message"
+// git push

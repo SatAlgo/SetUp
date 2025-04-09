@@ -24,7 +24,7 @@ function Timetable() {
           { time: '02:11 PM - 03:05 PM', subject: 'TOC', teacher: 'SBK', location: 'H309' },
         ],
         Wednesday: [
-          { time: '08:30 AM - 10:20 AM', subject: 'Proto(Mech) Lab', teacher: 'ORP', location: 'H002' },
+          { time: '08:30 AM - 10:20 AM', subject: 'Proto(Soft) Lab', teacher: 'Manish Giri', location: 'H310' },
           { time: '10:30 AM - 12:20 PM', subject: 'Proto(Che) Lab', teacher: 'MDS', location: 'B003' },
           { time: '01:15 PM - 02:10 PM', subject: 'TOC', teacher: 'SBK', location: 'H309' },
           { time: '02:11 PM - 03:05 PM', subject: 'ADS', teacher: 'BA', location: 'H309' },
